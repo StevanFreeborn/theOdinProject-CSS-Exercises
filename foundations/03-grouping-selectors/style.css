@@ -1,0 +1,28 @@
+/*
+a black background
+white text
+ */
+.me {
+  background-color: black;
+  color: white;
+}
+
+/*
+a yellow background 
+ */
+.no-me {
+  background-color: yellow;
+}
+
+/* 
+a font size of 28px
+a list of fonts containing 
+`Helvetica`
+`Times New Roman`
+`sans-serif`
+*/
+.me,
+.no-me {
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+}
