@@ -1,0 +1,38 @@
+/*
+a light red/pink background, 
+a list of fonts containing 
+  `Verdana` 
+  `DejaVu Sans` 
+  `sans-serif`
+ */
+.odd {
+  background-color: #ffc0cb;
+  font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+/*
+blue text
+a font size of 36px 
+ */
+#secondElement {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+/*
+font size of 24px 
+ */
+#thirdElement {
+  font-size: 24px;
+}
+
+/*
+a light green background, 
+a font size of 24px,
+bold 
+ */
+#fourthElement {
+  background-color: #90ee90;
+  font-size: 24px;
+  font-weight: bold;
+}
