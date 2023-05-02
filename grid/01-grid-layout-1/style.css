@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -8,6 +9,10 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 100px 100px 500px 100px;
+  gap: 15px;
 }
 
 .container div {
@@ -21,10 +26,16 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 8;
 }
 
 .nav {
@@ -33,6 +44,8 @@ body, html {
 
 .article {
   background-color: #bccbde;
+  grid-row-start: 3;
+  grid-row-end: 8;
 }
 
 .article p {
@@ -44,4 +57,6 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
